@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <style>
+     a:link a:visited {
+            color: rgb(148, 148, 250); /* Keeps links blue, regardless of visit status */
+            text-decoration: none; /* Optional: Removes underline */
+        }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: rgb(138, 161, 177);
+      color: #333;
+    }
+    header {
+      background: rgb(224,152,145);
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    nav {
+      background: rgb(203, 118, 158);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 2rem auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    .section h2 {
+      color: #444;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 1rem;
+    }
+    footer {
+      background: rgb(232,185,171);
+      color: rgb(133, 77, 39);
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Rajshree</h1>
+  <p>Computer Science Student | FinTech Enthusiast | Aspiring Software Engineer</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#resume">Resume</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+  <!-- About Section -->
+  <div id="about" class="section">
+    <h2>About Me</h2>
+    <p>Hello! I’m <a href="https://www.linkedin.com/in/itsrajshree/" target="_blank">Rajshree</a>, a passionate Computer Science student with hands-on experience in the FinTech industry. My goal is to create impactful software solutions that solve real-world problems. I specialize in data analysis, python development and creating mobile as well as web applications.</p>
+  </div>
+
+  <!-- Portfolio Section -->
+  <div id="portfolio" class="section">
+    <h2>Portfolio</h2>
+    <p>Here are some of the projects I’ve worked on:</p>
+    <ul>
+      <li><strong>Project 1: </strong><b><a href="https://github.com/itzrajshree/Hospital-Management-System"  target="_blank">Hospital Appointment Management System</a><br></b>
+        In response to the challenges faced by hospitals during the COVID-19 pandemic, the team developed a hospital management system focused on emergency appointment placement. Users can easily book appointments via a simple form, with confirmations provided instantly. The system uses Flask for the back-end, HTML for the front-end, and MySQL for secure data storage. It features a user-friendly interface for patients and an admin portal for managing records.<br></li>
+      <li><strong>Project 2: </strong><b><a href="https://github.com/itzrajshree/Weather-App"  target="_blank">WeatherApp</a><br></b></b>
+        WeatherApp enhances the user experience by introducing dynamic weather icons and wind speed integration, addressing limitations in existing weather apps. It provides real-time, location-based weather updates with intuitive design, offering a more comprehensive view of current and predicted conditions.
+      <br></li>
+      <li><strong>Project 3: </strong><b><a href="https://github.com/itzrajshree/Guessing-Game-py"  target="_blank">Guessing Game</a><br></b></b>
+        The Number Guessing Game is a Python-based application where players guess a randomly selected number between 1 and 20. Built with Python and Tkinter, it provides interactive feedback on guesses and runs easily with basic setup instructions.
+      <br></li>
+    </ul>
+  </div>
+
+  <!-- Resume Section -->
+  <div id="resume" class="section">
+    <h2>Resume</h2>
+    <p>Download my <a href="https://drive.google.com/file/d/1CD0B9QuFSEXbZgFieIs5IdR50p16itpH/view?usp=sharing" target="_blank">resume</a> or explore my career journey below:</p>
+    <ul>
+      <li><strong>May 2023-Till Date :</strong><b><u>Intern at Hyperbots</u> - Focused on Financial Technology Analysis</b>
+      <ul>
+        <li> Worked to earn the PPO offer within 3 months of joining the firm</li>
+        <li> Worked on CRMs such as Salesforce for Client Relations Management </li>
+        <li> Used Data Analysis to reach out to the target audience for the product </li>
+        <li> Handled Outreach Programs for the events held by Hyperbots in United States
+        </li>
+      </ul></li>
+
+      <li><strong>2024:</strong> Developed skills in Accounts Payables, Accounts Recievables and Expense Management in FinTech</li>
+    </ul>
+  </div>
+
+  <!-- Contact Section -->
+  <div id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Let’s connect! You can reach me through the following channels:</p>
+    <ul>
+      <li>Send an <a href="mailto:rajshreeonly.workmail@gmail.com" target="_blank">Email</a>
+      </li>
+      <li>Connect on <a href="https://www.linkedin.com/in/itsrajshree/" target="_blank">LinkedIn</a></li>
+      <li>See my repositories on <a href="https://github.com/itzrajshree" target="_blank">GitHub</a></li>
+    </ul>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2024 Rajshree. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
